@@ -1,0 +1,127 @@
+Model :LR
+Accuracy Score : 0.5020624355488891
+Confusion Matrix :
+Predicted      1
+Actual          
+-1         10623
+ 1         10711
+              precision    recall  f1-score   support
+
+          -1       0.00      0.00      0.00     10623
+           1       0.50      1.00      0.67     10711
+
+    accuracy                           0.50     21334
+   macro avg       0.25      0.50      0.33     21334
+weighted avg       0.25      0.50      0.34     21334
+
+Model :LDA
+Accuracy Score : 0.5229211587137902
+Confusion Matrix :
+Predicted    -1     1
+Actual               
+-1         5660  4963
+ 1         5215  5496
+              precision    recall  f1-score   support
+
+          -1       0.52      0.53      0.53     10623
+           1       0.53      0.51      0.52     10711
+
+    accuracy                           0.52     21334
+   macro avg       0.52      0.52      0.52     21334
+weighted avg       0.52      0.52      0.52     21334
+
+Model :KNN
+Accuracy Score : 0.5036092622105559
+Confusion Matrix :
+Predicted    -1     1
+Actual               
+-1         1035  9588
+ 1         1002  9709
+              precision    recall  f1-score   support
+
+          -1       0.51      0.10      0.16     10623
+           1       0.50      0.91      0.65     10711
+
+    accuracy                           0.50     21334
+   macro avg       0.51      0.50      0.41     21334
+weighted avg       0.51      0.50      0.41     21334
+
+Model :CART
+Accuracy Score : 0.5007031030280303
+Confusion Matrix :
+Predicted    -1     1
+Actual               
+-1         6054  4569
+ 1         6083  4628
+              precision    recall  f1-score   support
+
+          -1       0.50      0.57      0.53     10623
+           1       0.50      0.43      0.46     10711
+
+    accuracy                           0.50     21334
+   macro avg       0.50      0.50      0.50     21334
+weighted avg       0.50      0.50      0.50     21334
+
+Model :NB
+Accuracy Score : 0.49840629980313117
+Confusion Matrix :
+Predicted    -1     1
+Actual               
+-1         3357  7266
+ 1         3435  7276
+              precision    recall  f1-score   support
+
+          -1       0.49      0.32      0.39     10623
+           1       0.50      0.68      0.58     10711
+
+    accuracy                           0.50     21334
+   macro avg       0.50      0.50      0.48     21334
+weighted avg       0.50      0.50      0.48     21334
+
+Model :SVM
+Accuracy Score : 0.5020624355488891
+Confusion Matrix :
+Predicted      1
+Actual          
+-1         10623
+ 1         10711
+              precision    recall  f1-score   support
+
+          -1       0.00      0.00      0.00     10623
+           1       0.50      1.00      0.67     10711
+
+    accuracy                           0.50     21334
+   macro avg       0.25      0.50      0.33     21334
+weighted avg       0.25      0.50      0.34     21334
+
+Model :RF
+Accuracy Score : 0.5028592856473235
+Confusion Matrix :
+Predicted    -1     1
+Actual               
+-1         1203  9420
+ 1         1186  9525
+              precision    recall  f1-score   support
+
+          -1       0.50      0.11      0.18     10623
+           1       0.50      0.89      0.64     10711
+
+    accuracy                           0.50     21334
+   macro avg       0.50      0.50      0.41     21334
+weighted avg       0.50      0.50      0.41     21334
+
+Model :QDA
+Accuracy Score : 0.5062341801818693
+Confusion Matrix :
+Predicted    -1     1
+Actual               
+-1         4833  5790
+ 1         4744  5967
+              precision    recall  f1-score   support
+
+          -1       0.50      0.45      0.48     10623
+           1       0.51      0.56      0.53     10711
+
+    accuracy                           0.51     21334
+   macro avg       0.51      0.51      0.50     21334
+weighted avg       0.51      0.51      0.50     21334
